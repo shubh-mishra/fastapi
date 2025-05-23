@@ -46,8 +46,8 @@ uvicorn main:app --reload
 
 ## Access:
 
-📄 Docs: http://127.0.0.1:8000/docs
-🔁 Endpoint: http://127.0.0.1:8000/
+* 📄 Docs: http://127.0.0.1:8000/docs
+* 🔁 Endpoint: http://127.0.0.1:8000/
 
 ---
 
@@ -69,6 +69,7 @@ def create_item(item: Item):
 
 ## 🧱 Architecture Diagram
 
+```sql
  Client (Browser/Postman)
          |
          V
@@ -80,7 +81,7 @@ def create_item(item: Item):
          |
          V
      Business Logic / DB / External APIs
-
+```
 ---
 
 ## 📚 Summary
